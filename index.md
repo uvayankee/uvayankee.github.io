@@ -9,8 +9,11 @@ Welcome to the AI Agent Instructions repository. This site provides examples of 
 
 ## Available Instructions
 
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%B %d, %Y" }}
+{% assign sorted_pages = site.pages | sort: 'title' %}
+{% for page in sorted_pages %}
+{% if page.title and page.url != "/" and page.url != "/404.html" %}
+- [{{ page.title }}]({{ page.url | relative_url }})
+{% endif %}
 {% endfor %}
 
 ## Purpose

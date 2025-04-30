@@ -8,9 +8,10 @@ This site is built using GitHub Pages with Jekyll. It contains a collection of i
 
 ## Structure
 
-- `_posts/`: Contains individual instruction posts in Markdown format
+- `_pages/`: Contains individual instruction pages in Markdown format
 - `_config.yml`: Jekyll configuration file
 - `index.md`: Main landing page
+- `_layouts/`: Contains layout templates for the site
 
 ## Viewing the Site
 
@@ -20,12 +21,13 @@ The site is available at: https://uvayankee.github.io/
 
 To add a new instruction:
 
-1. Create a new Markdown file in the `_posts` directory following the naming convention: `YYYY-MM-DD-title.md`
+1. Create a new Markdown file in the `_pages` directory with a descriptive filename: `your-instruction-name.md`
 2. Include the Jekyll front matter at the top of the file:
    ```
    ---
-   layout: post
+   layout: page
    title: "Your Instruction Title"
+   permalink: /your-instruction-name/
    ---
    ```
 3. Add your content below the front matter

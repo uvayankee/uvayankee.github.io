@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: page
 title: "Test-Driven Development Prompt"
-date: 2025-04-29
+permalink: /tdd/
 ---
 
 # Test-Driven Development

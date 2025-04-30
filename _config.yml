@@ -6,6 +6,10 @@ description: Examples of workable instructions to constrain your agent to modern
 url: "https://uvayankee.github.io"
 baseurl: ""
 
+# Include directories
+include:
+  - _pages
+
 # Build settings
 markdown: kramdown
 
@@ -17,14 +21,14 @@ plugins:
 
 # Collections
 collections:
-  posts:
+  pages:
     output: true
-    permalink: /:year/:month/:day/:title/
+    permalink: /:basename/
 
 # Defaults
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: "pages"
     values:
-      layout: "post"
+      layout: "page"
