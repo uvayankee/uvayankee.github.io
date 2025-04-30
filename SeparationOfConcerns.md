@@ -1,6 +1,8 @@
+---
 layout: page
 title: Separation of Concerns
 permalink: /separation-of-concerns
+---
 
 # Separation of Concerns
 
