@@ -1,9 +1,9 @@
 ---
 layout: default
-title: AI Agent Instructions
+title: AI Agent Recipes 
 ---
 
-# Specific AI Instructions for Coding Agents
+# AI Recipes for Better Coding Agents
 
 Welcome to the AI Agent Instructions repository. This site provides examples of workable instructions to constrain your AI agent to modern software engineering practices.
 
