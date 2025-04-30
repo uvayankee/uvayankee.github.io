@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: post
 title: Separation of Concerns
-permalink: /separation-of-concerns
 ---
 
 # Separation of Concerns
