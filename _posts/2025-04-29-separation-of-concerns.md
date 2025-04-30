@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Separation of Concerns
+date: 2025-04-29
 ---
 
 # Separation of Concerns

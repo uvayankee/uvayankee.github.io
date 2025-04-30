@@ -1,3 +1,30 @@
 theme: jekyll-theme-minimal
 title: AI Agent Instructions
 description: Examples of workable instructions to constrain your agent to modern software engineering practices.
+
+# GitHub Pages settings
+url: "https://uvayankee.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

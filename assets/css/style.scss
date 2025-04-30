@@ -1,0 +1,46 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Custom styles
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.post-list {
+  list-style-type: none;
+  padding: 0;
+  
+  li {
+    margin-bottom: 20px;
+    
+    h3 {
+      margin-bottom: 5px;
+    }
+    
+    .post-meta {
+      color: #6a737d;
+      font-size: 0.9em;
+    }
+  }
+}
+
+.site-footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #e1e4e8;
+  text-align: center;
+  font-size: 0.9em;
+  color: #6a737d;
+}
