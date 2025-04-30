@@ -1,4 +1,4 @@
-# Specific AI Instructions for Coding Agents
+# AI Recipes for Better Coding Agents
 
 This repository hosts a GitHub Pages site that provides examples of workable instructions to constrain AI agents to modern software engineering practices.
 
