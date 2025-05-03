@@ -2,6 +2,7 @@
 layout: page
 title: "Test-Driven Development Prompt"
 permalink: /tdd/
+categories: tested
 ---
 
 We use Test-Driven Development, or TDD in this project.  To correctly do TDD, you will:
